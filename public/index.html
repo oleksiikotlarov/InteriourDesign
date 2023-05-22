@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Interiour</title>
+    <link rel="icon" type="image/png" href="/img/bg.jpg" />
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+    <script>
+      function myFunction() {
+        // Get the text field
+        var copyText = "+38066666666";
+
+        // Select the text field
+        // copyText.select();
+        // copyText.setSelectionRange(0, 99999); // For mobile devices
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText);
+
+        // Alert the copied text
+        alert("Number copied " + copyText);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img
+            data-speed="1"
+            class="hero"
+            src="img/designs/cabinet22.jpg"
+            alt="Alt" />
+          <div class="container">
+            <div data-speed=".5" class="main-header">
+              <h1 class="main-title">Interiour design</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img
+                  class="gallery__item"
+                  src="img/designs/cabinet11.jpg"
+                  alt="Alt" />
+                <img
+                  class="gallery__item"
+                  src="img/designs/bedroom777.jpg"
+                  alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Transform your space into a personalized oasis.
+                  </h2>
+                  <p class="text-block__p">
+                    Different materials, colors, and textures to create visually
+                    stunning and comfortable space for you.
+                  </p>
+                </div>
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Some of the most amazing designs
+                  </h2>
+                  <p class="text-block__p">
+                    Some more text to be, some more some more some more and more
+                    and more.
+                  </p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="img/designs/koridor44.jpg"
+                  alt="Alt" />
+                <img
+                  class="gallery__item"
+                  src="img/designs/koridor 22.jpg"
+                  alt="Alt" />
+              </div>
+            </main>
+          </div>
+        </div>
+        <div>
+          <div data-speed="1.2">
+            <h2 data-speed=".9" class="main-title-1">
+              Interiour design for you
+            </h2>
+            <div class="logos">
+              <div class="logos-slide">
+                <img src="img/designs/koridor88.jpg" alt="0" />
+                <img src="img/designs/bedroom2.jpg" alt="0" />
+                <img src="img/designs/kitchen33.jpg" alt="0" />
+                <img src="img/designs/koridor77.jpg" alt="0" />
+                <img src="img/designs/kitchen22.jpg" alt="0" />
+                <img src="img/designs/cabinet55.jpg" alt="0" />
+              </div>
+              <div class="logos-slide">
+                <img src="img/designs/koridor88.jpg" alt="0" />
+                <img src="img/designs/bedroom2.jpg" alt="0" />
+                <img src="img/designs/kitchen33.jpg" alt="0" />
+                <img src="img/designs/koridor77.jpg" alt="0" />
+                <img src="img/designs/kitchen22.jpg" alt="0" />
+                <img src="img/designs/cabinet55.jpg" alt="0" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio">
+          <div class="">
+            <main data-speed=".8" class="gallery">
+              <div data-speed=".7" class="gallery__left">
+                <img
+                  class="gallery__item"
+                  src="img/designs/cabinet22.jpg"
+                  alt="Alt" />
+                <span class="gallery__item"></span>
+
+                <div class="text-block gallery__item">
+                  <h1 class="text-block__h1">Contact us</h1>
+                  <p class="text-block__p1">
+                    Phone number:
+                    <a class="button_copy" onclick="myFunction()"
+                      >+38066666666</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div data-speed="1.2" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative innovation with an amazing lines.
+                  </h2>
+                  <p class="text-block__p">
+                    Bring your home to life by higly skilled professionals in
+                    unique ways
+                  </p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="img/designs/bedroom55.jpg"
+                  alt="Alt" />
+                <img class="gallery__item" src="img/blackman.png" alt="Alt" />
+              </div>
+            </main>
+          </div>
+        </div>
+
+        <div>
+          <img data-speed="1.4" class="pic4" src="img/designs/cabinet44.jpg" />
+          <img data-speed=".9" class="pic1" src="img/designs/koridor44.jpg" />
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
